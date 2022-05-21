@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "predeploy": [
+      "npm --prefix src run generate", "./predeploy-functions.bat"
+    ]
+  },
+  "hosting": {
+    "predeploy": [
+      "npm --prefix src run generate", "./predeploy-hosting.bat"
+    ],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
