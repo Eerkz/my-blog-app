@@ -4,7 +4,7 @@ module.exports = {
   ssr: false,
   target: 'static',
   head: {
-    title: 'firebase-app',
+    title: 'my-blog-app',
     htmlAttrs: {
       lang: 'en',
     },
@@ -19,9 +19,6 @@ module.exports = {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/main.css'],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -65,9 +62,7 @@ module.exports = {
       },
     ],
   ],
-  generate: {
-    
-  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {

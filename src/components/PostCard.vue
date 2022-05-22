@@ -4,9 +4,9 @@
       {{ title }}
     </h5>
     <label class="bg-yellow-100 text-yellow-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ">{{author}}</label>
-    <div class="mt-4 text-l font-normal text-gray-700 truncate h-6">
+    <p class="mt-4 text-l font-normal text-gray-700 truncate h-6">
       {{ content }}
-    </div>
+    </p>
   </div>
 </template>
 
