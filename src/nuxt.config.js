@@ -1,8 +1,8 @@
 // eslint-disable-next-line nuxt/no-cjs-in-config
 module.exports = {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  ssr: true,
-  target: 'server',
+  ssr: false,
+  target: 'static',
   head: {
     title: 'my-blog-app',
     htmlAttrs: {

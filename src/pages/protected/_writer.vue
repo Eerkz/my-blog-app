@@ -24,7 +24,7 @@
           <input
             v-model="query"
             type="search"
-            class="form-control block w-2/4 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0"
+            class="form-control block w-full md:w-2/4 my-2 md:my-0 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0"
             placeholder="Seach for a blog..."
           />
           <div class="flex flex-row items-center justify-center">
@@ -81,7 +81,7 @@
           <div
             v-for="post in filterBlogs(posts)"
             :key="post.id"
-            class="p-6 w-1/4 bg-white rounded-xl gborder-gray-200 shadow-md m-3"
+            class="p-6 lg:w-1/4 md:w-1/2 w-4/5  bg-white rounded-xl gborder-gray-200 shadow-md m-3"
           >
             <PostCard
               :key="post.id"
